@@ -4,7 +4,7 @@ import { CustomError } from "../business/error/CustomError";
 
 export class UserDatabase extends BaseDatabase {
 
-   private static TABLE_NAME = "user";
+   private static TABLE_NAME = "NOME_TABELAS_USUÁRIOS";
 
    private static toUserModel(user: any): User {
       return new User(
